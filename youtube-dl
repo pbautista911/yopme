@@ -1,0 +1,80 @@
+--yes-playlist
+              Download the playlist, if the URL refers to a video and a playlist.
+Post-processing Options:
+       -x, --extract-audio
+              Convert video files to audio-only files (requires ffmpeg or avconv and ffprobe or avprobe)
+
+       --audio-format FORMAT
+              Specify audio format: "best", "aac", "vorbis", "mp3", "m4a", "opus", or "wav"; "best" by default
+
+
+
+youtube-dl --yes-playlist=https://www.youtube.com/playlist?list=PLcfgpjzMYTNWqhb2ZgEWNGqD00Pp_ugVW -x --audio-format=mp3
+
+
+youtube-dl https://www.youtube.com/playlist?list=PLcfgpjzMYTNWqhb2ZgEWNGqD00Pp_ugVW --yes-playlist -x --audio-format=mp3
+
+youtube-dl -s https://www.youtube.com/playlist?list=PLcfgpjzMYTNWqhb2ZgEWNGqD00Pp_ugVW --yes-playlist -x --audio-format=mp3 --playlist-start=42 --playlist-end=57
+
+--ignore-errors
+ --playlist-start NUMBER
+              Playlist video to start at (default is 1)
+
+       --playlist-end NUMBER
+              Playlist video to end at (default is last)
+
+
+
+https://www.youtube.com/playlist?list=PL28A438F42502CC37
+
+
+https://www.youtube.com/playlist?list=PL28A438F42502CC37
+
+
+
+
+
+
+
+
+youtube-dl https://www.youtube.com/playlist?list=PL28A438F42502CC37 --yes-playlist -x --audio-format=mp3 --ignore-errors
+
+https://www.youtube.com/playlist?list=PL5PPctPwu7YXkn6BqIkN51bJ35kMjVGXg
+
+
+youtube-dl https://www.youtube.com/playlist?list=PL5PPctPwu7YXkn6BqIkN51bJ35kMjVGXg --yes-playlist -x --audio-format=mp3 --ignore-errors
+
+
+
+
+https://www.youtube.com/playlist?list=PL96FF130FC95F4F55
+youtube-dl https://www.youtube.com/playlist?list=PL96FF130FC95F4F55 --yes-playlist -x --audio-format=mp3 --ignore-errors --restrict-filenames
+
+
+
+https://www.youtube.com/playlist?list=PLF93BEC2AB184C0B9
+
+youtube-dl https://www.youtube.com/playlist?list=PLF93BEC2AB184C0B9 --yes-playlist -x --audio-format=mp3 --ignore-errors --restrict-filenames
+
+
+https://www.youtube.com/playlist?list=PLhr1KZpdzukcMmx04RbtWuQ0yYOp1vQi4
+https://www.youtube.com/watch?v=CaJCmoGIW24
+
+youtube-dl https://www.youtube.com/watch?v=CaJCmoGIW24 --ignore-errors --restrict-filenames
+
+youtube-dl -s https://www.youtube.com/playlist?list=PLhr1KZpdzukcMmx04RbtWuQ0yYOp1vQi4 --yes-playlist --ignore-errors --restrict-filenames
+
+
+sudo curl -L https://yt-dl.org/latest/youtube-dl -o /usr/local/bin/youtube-dl`
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+
+sudo wget https://yt-dl.org/downloads/latest/youtube-dl -O /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+
+
+https://www.youtube.com/playlist?list=PLD7SPvDoEddZUrho5ynsBfaI7nqhaNN5c
+
+--------------------------------------------------------------------
+youtube-dl https://www.youtube.com/playlist?list=PLD7SPvDoEddZUrho5ynsBfaI7nqhaNN5c --yes-playlist -x --audio-format=mp3 --ignore-errors --restrict-filenames
+--------------------------------------------------------------------
