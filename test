@@ -1,0 +1,31 @@
+iefly, this is all you need to do:
+
+Install git:
+$ sudo apt-get install -y git meld mono-runtime libmono2.0-cil libmono-system-core4.0-cil libmono-system-windows-forms4.0-cil mono-complete
+
+Install one of many diff/merge tools:
+$ sudo apt-get install meld
+
+Install mono runtime and required libs:
+$ sudo apt-get install mono-runtime 
+$ sudo apt-get install libmono2.0-cil libmono-system-core4.0-cil
+$ sudo apt-get install libmono-system-windows-forms4.0-cil
+
+On most newer Linux distributions and versions, that should be it!
+If, for any reason, mono refuses to load GitForce.exe, you may want to install complete mono package:
+$ sudo apt-get install mono-complete
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
