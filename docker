@@ -1,0 +1,11 @@
+logstash - index through elastisearch loaded to kibana
+
+logspout - tail to push logstash
+
+
+
+1.define configuration on git
+2.download this configuration and 
+
+
+
