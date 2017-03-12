@@ -4,7 +4,7 @@ logspout - tail to push logstash
 
 -------------------
 1.docker machine made by ansible playbook
-2.docker compose links services like, nginx,phpfpm,db
+2.docker compose links services like, nginx,phpfpm,db etc..
 3.define configuration on git
 4.download this configuration and 
 -------------------

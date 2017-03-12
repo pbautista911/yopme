@@ -85,3 +85,24 @@ youtube-dl https://www.youtube.com/playlist?list=PLx0sYbCqOb8TBPRdmBHs5Iftvv9TPb
 --------------------------------------------------------------------
 
 http://www.streamhd.eu/box/manny-pacquiao-vs-jessie-vargas-live-stream-1094.php
+
+172.17.0.251
+172.17.0.1
+
+https://www.youtube.com/playlist?list=PL9NY5axt700HTnrruVA6gTgcd8lOczZkM
+
+--------------------------------------------------------------------
+youtube-dl https://www.youtube.com/playlist?list=PL9NY5axt700HTnrruVA6gTgcd8lOczZkM --yes-playlist -x --audio-format=mp3 --ignore-errors --restrict-filenames
+
+--------------------------------------------------------------------
+
+https://www.youtube.com/playlist?list=PLm_3vnTS-pvmZFuF3L1Pyhqf8kTTYVKjW
+
+youtube-dl https://www.youtube.com/playlist?list=PLm_3vnTS-pvmZFuF3L1Pyhqf8kTTYVKjW --yes-playlist -x --audio-format=mp3 --ignore-errors --restrict-filenames
+--------------------------------------------------------------------
+
+https://www.youtube.com/playlist?list=PLEpfh9jiEpYQJWMW2EF2PgCBhz2SQu6Ld
+
+youtube-dl https://www.youtube.com/playlist?list=PLEpfh9jiEpYQJWMW2EF2PgCBhz2SQu6Ld --yes-playlist -x --audio-format=mp3 --ignore-errors --restrict-filenames
+
+--------------------------------------------------------------------
